@@ -1,6 +1,34 @@
-# 샵은 파이썬의 주석이며, 인식되지 않는다.
-# 드레그 하고 #을 누루면 전체 주석처리가 된다.
 '''
-표따옴표 3개를 열고 닫을시에는 주석을 길게 쓸수 있다.
+students = ['고상호', '양서연', '이승훈', '이원희']
+print(students)
+print(students[0])
+print(studnets[1:4])
+print(studnets[:])
+print(studnets[:2])
+print(studnets[1:])
+
+# print(dir(list))
+
+a = ['eat', 'more', 'SPAM']
+a.append('please')
+print(a)
+
+
+# print(dir(tuple))
+tuple_ex = (1, 2)
+tuple_ex = 1, 2
+
+
+a = (1,)
+print(type(a))
+
+
+tuple_ex = (1, 2, 3)
+tuple_ex[1] = 2
+print(tuple_ex)
 '''
-print("안녕하세요. 이인홍입니다.")
+
+print(list(range(5)))
+print(list(range(5, 8)))
+print(list(range(1, 10, 2)))
+print(list(range(1, 2)))
